@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 import { DeviceSize } from "../responsive/screensSize";

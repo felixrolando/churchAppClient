@@ -59,7 +59,6 @@ const Sermones = () => {
     getRequest(
       `https://www.googleapis.com/youtube/v3/search?channelId=UCVs8yhRKamLNDsKfxRpICXg&key=AIzaSyBPnqrWLDo3DqKZhpNLkQRtZVpHtYM9Vz8&part=snippet&maxResults=3&order=date&type=video`
     ).then((res: any) => {
-      console.log("holaaaaa");
       setData(res.data.items);
     });
   }, []);
